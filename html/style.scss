@@ -178,6 +178,7 @@ a,a:visited{
       ul{
         display: flex;
         width: 200%;
+        height: 100%;
         transition: ease 0.4s;
       }
       li{
@@ -185,6 +186,15 @@ a,a:visited{
         height: 100%;
         .slide-title{
           font-size: 30px;
+        }
+        .img{
+          height: 100%;
+          img{
+            width: auto;
+            max-width: 100%;
+            height: 100%;
+            margin: 0 auto;
+          }
         }
       }
     }
